@@ -1,0 +1,20 @@
+.Contact{
+ background-color: $veryLightGray;
+ text-align: center;
+
+    @include breakpoint-up(large){
+        text-align: left;
+    }
+
+    &__intro {
+        iframe {
+            width: 18.75rem;
+            height: 18.75rem;
+
+            @include breakpoint-up(large){
+                width: 37.5rem;
+                height: 37.5rem;
+            }
+        }
+    }
+}
