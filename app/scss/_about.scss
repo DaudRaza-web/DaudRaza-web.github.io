@@ -5,9 +5,7 @@
       text-align: center;
 
       @include breakpoint-up(large){
-          p, h1, h2{
-              text-align: left;
-          }
+        text-align: left;
       }
     }
 }
